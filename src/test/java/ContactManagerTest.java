@@ -59,7 +59,7 @@ public class ContactManagerTest {
 	@Test 
 	@DisplayName("Phone Number should start with 0") 
 	public void shouldTestPhoneNumberFormat() { 
-	contactManager.addContact("John", "Doe", "0123456789"); 
+	contactManager.addContact("John", "Doe", "0123456789");
 	assertEquals(1, contactManager.getAllContacts().size()); 
 	} 
 	
@@ -78,15 +78,15 @@ public class ContactManagerTest {
 	class ParameterizedTests { 
 	@DisplayName("Phone Number should match the required Format") 
 	@ParameterizedTest 
-	@ValueSource(strings = {"0123456789", "0123456798", "0123456897"}) 
+	@ValueSource(strings = {"0123456789", "0123456798", "0123456897"})
 	public void shouldTestPhoneNumberFormatUsingValueSource(String phoneNumber) { 
 	contactManager.addContact("John", "Doe", phoneNumber); 
-	assertFalse(contactManager.getAllContacts().isEmpty()); 
+	assertFalse(contactManager.getAllContacts().isEmpty());
 	assertEquals(1, contactManager.getAllContacts().size()); 
 	} 
 	} 
 	
-	@DisplayName("Method Source Case - Phone Number should match the required Format") 
+	@DisplayName("Method Source Case - Phone Number should match the required Format")
 	@ParameterizedTest
 	@MethodSource("phoneNumberList") 
 	public void shouldTestPhoneNumberFormatUsingMethodSource(String phoneNumber) { 

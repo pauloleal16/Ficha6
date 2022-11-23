@@ -4,19 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="24ce0b8b-d2f1-4a3f-91dc-3be4e51fe69e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/ex1/Contact.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/ex1/ContactManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/ex2/Numero.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ContactManagerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Exercicio2Teste.java" afterDir="false" />
+    <list default="true" id="24ce0b8b-d2f1-4a3f-91dc-3be4e51fe69e" name="Changes" comment="ficha6">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/ex3/Nota.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/ex3/UC.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Exercicio3Teste.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ContactManagerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ContactManagerTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,8 +20,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="package-info" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -43,18 +37,58 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "C:/Users/pauli/Desktop/University/.QS/InteliJ/upt.qs.ficha6"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/pauli/Desktop/University/.QS/InteliJ/upt.qs.ficha5&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editing.templates&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\pauli\Desktop\University\.QS\InteliJ\upt.qs.ficha6\src\test\java" />
     </key>
+  </component>
+  <component name="RunManager" selected="JUnit.Exercicio3Teste.registarNota">
+    <configuration name="Exercicio3Teste.registarNota" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="upt.qs.ficha6" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Exercicio3Teste" />
+      <option name="METHOD_NAME" value="registarNota(java.lang.String)" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Exercicio3Teste.testePesquisaAluno" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="upt.qs.ficha6" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Exercicio3Teste" />
+      <option name="METHOD_NAME" value="testePesquisaAluno(int)" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Exercicio3Teste.testeRegistarNota" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="upt.qs.ficha6" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Exercicio3Teste" />
+      <option name="METHOD_NAME" value="testeRegistarNota(int,int)" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.Exercicio3Teste.testeRegistarNota" />
+        <item itemvalue="JUnit.Exercicio3Teste.testePesquisaAluno" />
+        <item itemvalue="JUnit.Exercicio3Teste.registarNota" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -65,6 +99,14 @@
       <option name="presentableId" value="Default" />
       <updated>1668551660814</updated>
     </task>
+    <task id="LOCAL-00001" summary="ficha6">
+      <created>1668553524741</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1668553524741</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -77,5 +119,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="ficha6" />
+    <option name="LAST_COMMIT_MESSAGE" value="ficha6" />
   </component>
 </project>
